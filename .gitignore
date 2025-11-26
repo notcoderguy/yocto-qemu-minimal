@@ -1,0 +1,13 @@
+# Ignore external dependencies
+poky/
+meta-openembedded/
+
+# Ignore build artifacts
+build/
+downloads/
+sstate-cache/
+cache/
+
+# Ignore system files
+.DS_Store
+*.swp
